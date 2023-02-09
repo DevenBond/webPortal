@@ -1,8 +1,123 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Rubik+Gemstones&display=swap');
 
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+img {
+	width: 80%;
+	margin: 0 10%;
+}
+
 body {
-	background-color: #FFE5B4;
+	background-color: #0f1012;
 	font-family: 'Roboto', sans-serif;
 }
 
+.container {
+	margin: 0;
+	background: #009C03;
+}
+
+.intro {
+	background: #005C02;
+}
+
+.about {
+	background: #00DB05;
+}
+
+.webProjects {
+	background: #00E804}
+
+.resume {
+	background: #00C203;
+}
+
+.experience {
+	background: #029C47;
+}
+
+footer h4 {
+	color: white;
+	background-color: #0f1012;
+}
+
+li {
+	display: block;
+}
+h2 {
+	text-align: center;
+}
+/*
+p {
+	border: 3px solid #0f1012;
+}
+*/
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #0f1012;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+font-size: 2em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel1 {
+  padding: 3% 18px;
+  background-color: #03A600;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+	font-size: 2em;
+}
+
+.panel2 {
+  padding: 3% 18px;
+  background-color: #026600;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+	font-size: 2em;
+}
+
+.panel3 {
+  padding: 3% 18px;
+  background-color: #04E600;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+	font-size: 2em;
+}
+
+.panel4 {
+  padding: 3% 18px;
+  background-color: #04F500;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+	font-size: 2em;
+}
+
+.panel5 {
+  padding: 3% 18px;
+  background-color: #03CC00;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+	font-size: 2em;
+}
