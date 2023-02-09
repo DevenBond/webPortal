@@ -1,0 +1,176 @@
+/* CSS Document */
+/*
+Google Fonts
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Rubik Gemstones', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Rubik+Gemstones&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #e4f2ea;
+	font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+	font-size: 7em;
+	color: #e4f2ea;
+	margin-left: 8%;
+}
+
+header h2 {
+	font-size: 3em;
+	color: #e4f2ea;
+	margin-left: 10%;
+}
+
+.hnav {
+	width: 100%;
+	background-color: #11181e;
+	min-height: 50px;
+	text-align: right;
+}
+
+.hnav ul {
+	display: block;
+	padding-top: .8em;
+}
+
+.hnav ul li{
+	display: inline-block;
+	list-style-type: none;
+	width: 10%;
+	padding: 0 2%;
+}
+
+.hnav a {
+	text-decoration: none;
+	color: #e4f2ea;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+}
+
+.hnav a:hover {
+	background-color: #A68160;
+	color: #11181e;
+}
+
+nav a:hover {
+	
+}
+
+header{
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/appearance_beagle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+main{
+	width: 100%;
+	min-height: 500px;
+}
+
+#container {
+	center: 0 auto;
+	width: 80%;
+	min-height: 500px;
+	font-size: 1.8em;
+	padding-bottom: 2%;
+	/* background-color: red; */
+}
+
+#container img {
+	float: left;
+	margin-right: 2%;
+	border: 20px double #734f2f;
+	border-radius: 10px;
+}
+
+#container p {
+	margin-bottom: 1em;
+}
+
+.imgSm {
+	width: 65%;
+}
+
+.imgSm2 {
+	width: 45%;
+}
+
+.imgSm3 {
+	width: 45%;
+}
+
+.imgSm4 {
+	width: 45%
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+blockquote {
+	font-family: 'Rubik Gemstones', cursive;
+	font-size: 3em;
+	color: #734f2f;
+}
+
+table {
+	
+}
+
+footer {
+	min-height: 500px;
+	background-color: #11181e;
+	text-align: center;
+	padding-bottom:.8em;
+	color: #e4f2ea;
+	padding-top: 5%;
+}
+
+.fnav {
+	width: 100%;
+	background-color: #A14F00;
+	min-height: 50px;
+	text-align: right;
+	padding-bottom: .8em;
+}
+
+.fnav ul {
+	display: block;
+	padding-top: .8em;
+}
+
+.fnav ul li{
+	display: inline-block;
+	list-style-type: none;
+	width: 10%;
+	padding: 0 2%;
+}
+
+.fnav a {
+	text-decoration: none;
+	color: #e4f2ea;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.fnav a:hover {
+	background-color: #A68160;
+	color: #11181e;
+	
+}

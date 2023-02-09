@@ -1,0 +1,21 @@
+/* CSS Document */
+nav li {
+		border-top: none;
+		display: inline-block;
+		border-right: 1px solid #fff;
+	}
+	
+	nav li:last-child {
+		border-right: none;
+	}
+	
+	nav li a {
+		padding: .1em .75em;
+	}
+header img {
+	width: 100%;
+	display: block;
+}
+nav li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}

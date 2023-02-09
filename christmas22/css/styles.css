@@ -1,0 +1,343 @@
+/* CSS Document */
+
+
+/* Decrative Font - Kenia:
+font-family: 'Kenia', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+
+/* CSS Browser Reset */
+body, header, nav, main, section, ul, li, a, footer, img, h1, h2, p {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body{
+	background-color: black;
+	font-size: 1.5em;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+p img {
+	max-width: 35%;
+	display: block;
+}
+
+/* Style rules for header */
+header {
+	position: -webkit-sticky;
+	position: sticky;
+	background-image: -webkit-linear-gradient(left, green, red);
+	background-image: url(../images/flake.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 300px;
+}
+
+header img {
+	max-width: 30%;
+	margin: 0 auto;
+}
+
+header h1 {
+	padding: 20% 2% 10% 15%;
+	font-family: 'Kenia', cursive;
+	font-size: 2em;
+	text-shadow: 1px 1px 2px white, 0 0 1em red, 0 0 0.2em red;
+}
+
+/* Style rules for our navigation */
+/*
+nav {
+	background-image: -webkit-linear-gradient(left, green, red);
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+nav li {
+	font-size: 1.0em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	border-right: 1px #fff solid;
+	display: inline-block;
+}
+
+nav li:first-child {
+	border-left: 1px #fff solid;
+}
+
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover{
+	color: black;
+	background-color: white;
+}
+*/
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+nav li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+/* style rules for main sections */
+section img {
+	max-width: 50%;
+}
+
+main {
+	padding: 2% 10%;
+	background-image: -webkit-linear-gradient(left, green, red);
+	min-height: 300px;
+}
+
+p img {
+	float: left;
+	margin-right: 2em;
+}
+
+
+
+
+
+/* Start CSS Grid Code here */
+@supports (grid-area: auto) {
+   
+	/* Media Query Tablet */
+    @media screen and (min-width: 600px) {
+        
+		/* Apply CSS Grid */
+		.cssGrid {
+			display: grid;
+			width: 100%;
+			grid-template-columns: 45% 45%;
+			grid-template-areas: 
+				"it1 it1"
+				"it2 it3"
+				"it4 it4"
+				"it5 it6"
+				"it7 it7"
+				"it8 it9";
+			grid-gap: 1% 1%;
+			margin: 0;
+			justify-content: center;
+		}
+		
+		#item1 {
+			grid-area: it1;
+			background-color: #A1C181;
+			border: 2px #FE7F2D solid;
+		}
+		#item2 {
+			grid-area: it2;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+		}
+		#item3 {
+			grid-area: it3;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+		}
+		#item4 {
+			grid-area: it4;
+			background-color: #A1C181;
+			border: 2px #FE7F2D solid;
+		}
+		#item5 {
+			grid-area: it5;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+		}
+		#item6 {
+			grid-area: it6;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+		}
+		#item7 {
+			grid-area: it7;
+			background-color: #A1C181;
+			border: 2px #FE7F2D solid;
+		}
+		#item8 {
+			grid-area: it8;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+			}
+		#item9 {
+			grid-area: it7;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+		}
+	
+		header h1 {
+			font-size: 4em;
+		}
+	
+		
+    } /* Closing Media Query Tablet */
+    
+    /* Media Query Desktop */
+    @media screen and (min-width: 1000px) {
+        /* Apply CSS Grid */
+		.cssGrid {
+			display: grid;
+			width: 100%;
+			grid-template-columns: 30% 30% 30%;
+			grid-template-areas: 
+				"it1 it2 it3"
+				"it4 it5 it6"
+				"it7 it8 it9";
+			grid-gap: 1% 1%;
+			margin: 0;
+			justify-content: center;
+		}
+		/* Row 1 */
+		#item1 {
+			grid-area: it1;
+			background-color: #A1C181;
+			border: 2px #FE7F2D solid;
+		}
+		#item2 {
+			grid-area: it2;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+		}
+		#item3 {
+			grid-area: it3;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+		}
+		#item4 {
+			grid-area: it4;
+			background-color: #A1C181;
+			border: 2px #FE7F2D solid;
+		}
+		#item5 {
+			grid-area: it5;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+		}
+		#item6 {
+			grid-area: it6;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+		}
+		/* Row 3 */
+		/* End Row 2 */
+		#item7 {
+			grid-area: it7;
+			background-color: #A1C181;
+			border: 2px #FE7F2D solid;
+		}
+		#item8 {
+			grid-area: it8;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+			}
+		#item9 {
+			grid-area: it9;
+			background-color: #619B8A;
+			border: 2px #FE7F2D solid;
+		}
+	
+		header h1 {
+			font-size: 7em;
+		}
+		
+		
+    } /* Closing Media Query Desktop */
+    
+	/* Media Query Large Screen */
+    @media screen and (min-width: 1250px) {
+		.cssGrid {
+			width: 1250px;
+			margin: 0 auto;
+		}
+    }
+}
+/* End CSS Grid Code here */
+
+
+footer {
+	clear: left;
+	padding-top: 100px;
+	min-height: 200px;
+	background-color: blue;
+		color: white;
+	font-size: .8em;
+	text-align: center;
+}
