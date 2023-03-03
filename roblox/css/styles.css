@@ -1,0 +1,80 @@
+#header1{
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/index_pic.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+#header2{
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/studio.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+#header3{
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/events1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+#header4{
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/currency.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+#header5{
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/events2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+nav li{
+	display: inline-block;
+	width: 7%;
+	text-align: center;
+}
+
+nav ul{
+	width: 100%;
+	margin: 0 30%;
+}
+
+nav a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding: 10%;
+}
+
+body{
+	background-color: #129de0;
+}
+
+p{
+	font-size: 30px;
+	color: white;
+}
+
+h1{
+	color: white;
+}
+
+nav a:hover {
+	background-color: black;
+	color: white;
+}
