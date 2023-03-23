@@ -1,0 +1,243 @@
+@font-face {
+    font-family: onePieceFont;
+    src: url("onePieceFont.ttf")
+}
+
+body{
+	
+}
+
+header {
+	font-family: onePieceFont;
+	color: white;
+}
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+header p {
+	font-size: 5vw;
+}
+
+header a {
+	font-size: 2vw;
+}
+#header1 {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/crew.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#header2 {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/luffy.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+#header3 {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/zoro.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+#header4 {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/usopp.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+#header5 {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/sanji.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+#header6 {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/nami.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+#header7 {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/chopper.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+#header8 {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/robin.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+#header9 {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/franky.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+#header10 {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/brook.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+#header11 {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/jinbe.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+nav {
+	width: 100%;
+	border: solid 1vw;
+    background-color: black;
+}
+
+nav li{
+	display: inline-block;
+	width: 8%;
+	text-align: center;
+}
+
+nav ul{
+	width: 100%;
+	margin: right;
+}
+
+nav a{
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	padding: 10%;
+}
+
+nav a:hover{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+}
+
+/*
+nav {
+	width: 100%;
+	background-color: #11181e;
+	min-height: 50px;
+	text-align: right;
+}
+
+nav ul {
+	display: block;
+	padding-top: .8em;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	width: 10%;
+	padding: 0 2%;
+}
+
+nav a {
+	text-decoration: none;
+	color: #e4f2ea;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+}
+
+nav a:hover {
+	background-color: #A68160;
+	color: #11181e;
+}
+
+nav a:hover {
+*/
+body{
+	background-color: indianred;
+}
+
+p{
+	font-size: 30px;
+}
+
+h1{
+	size: 5vw;
+	text-align: center;
+	font-family: onePieceFont;
+	color: white;
+}
+
+
+h4{
+	color: white;
+}
+
+.rubberFruit {
+	float: left;
+	width: 15%;
+}
+
+.hitoFruit {
+	float: left;
+	width: 15%;
+}
+
+.hanaFruit {
+	float: left;
+	width: 15%;
+}
+
+.yomiFruit {
+	float: left;
+	width: 15%;
+} 
+
+.Sword {
+	float: left;
+	width: 15%;
+} 
+
+
+footer {
+	clear: both;
+}
+
+
