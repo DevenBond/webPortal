@@ -132,7 +132,7 @@ nav {
 
 nav li{
 	display: inline-block;
-	width: 8%;
+	width: 7%;
 	text-align: center;
 }
 
@@ -231,6 +231,11 @@ h4{
 } 
 
 .Sword {
+	float: left;
+	width: 15%;
+} 
+
+.news {
 	float: left;
 	width: 15%;
 } 
