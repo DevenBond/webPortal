@@ -1,0 +1,67 @@
+@font-face {
+    font-family: bloodyTerror;
+    src: url(BloodyTerror-GOW9Z.ttf);
+}
+
+body{
+	
+}
+
+header{
+	font-family: bloodyTerror;
+	color: red;
+	font-size: 2vw;
+}
+
+nav a{
+	font-size: 10;
+	color: darkred;
+	text-decoration: none;
+	padding: 2% 0;
+	margin: 1%;
+}
+
+nav{
+	width: 100%;
+	text-align: center;
+	background-color: red;
+	padding: 1% 0;
+	font-size: 1vw;
+}
+
+nav a:hover{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	width: 10%;
+	padding: 100;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	display: inline;
+	width: 5%;
+}
+	
+p{
+
+}
+
+h1{
+	font-family: bloodyTerror;
+}
+
+h2{
+	
+}
+
+li{
+	
+}
+
+img {
+	width: 50%;
+}
